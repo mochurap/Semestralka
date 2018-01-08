@@ -1,0 +1,9 @@
+<Files ~ "^.(htaccess|htpasswd)$">
+deny from all     
+</Files>
+ErrorDocument 401 index.php?page="401"
+ErrorDocument 404 index.php?page="404"
+order deny,allow
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

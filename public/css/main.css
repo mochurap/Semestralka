@@ -1,0 +1,94 @@
+#bgLogo {
+    position: absolute;
+    opacity: 0.3;
+    right: 0%;
+    top: 10%;
+    height: 80%;
+}
+#bgLogoInfo {
+    position: absolute;
+    opacity: 0.3;
+    left: 0%;
+    top: 30%;
+    height: 40%;
+}
+.mapFrame {
+    position: absolute;
+    width: auto;
+    height: 100%;
+}
+#loginModal {
+    max-width: 600px;
+}
+.collapsible-header {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.collapsible-body {
+    padding: 2%;
+}
+.ratingCard {
+    display: block;
+    margin-left: 2%;
+    overflow: hidden;
+}
+#userDropdown a {
+    color: #2e7d32;
+}
+.select-dropdown > li > span {
+    color: #2e7d32;
+}
+p {
+    text-align: justify;
+}
+.section {
+    padding: 2%;
+    margin: 0 0 5% 0;
+}
+h3.sectLabel {
+    margin-top: 5%;
+}
+#php_target {
+    display: none;
+    width: 100%;
+    height: 20%;
+}
+#pageLoader {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 1006;
+}
+#pageOverlay {
+    background-color: black;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    z-index: 1005;
+}
+p a {
+    color: inherit;
+    text-decoration: underline;
+}
+.card-title {
+    background: rgba(128, 128, 128, 0.4);
+}
+p.hint {
+    margin-left: 2%;
+    border-left: 4px black solid;
+    padding-left: 2%;
+}
+hr {
+    border: none;
+    height: 1px;
+    color: lightgray;
+    background-color: lightgray;
+}
+.socLogo {
+    height: 2em;
+    width: auto;
+    vertical-align: middle;
+}
